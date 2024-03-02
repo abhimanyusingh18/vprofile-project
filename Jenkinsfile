@@ -1,9 +1,10 @@
 pipeline {
-
+/*
     agent any
 	tools {
         maven "maven3"
     }
+*/    
     environment {
         registry = "abhimanyuu18/vproapp"
         registryCredential = 'dockerhub'
